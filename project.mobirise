@@ -6,7 +6,7 @@
       "name": "startm5",
       "title": "StartM5",
       "styling": {
-        "primaryColor": "#9fe870",
+        "primaryColor": "#033f6f",
         "secondaryColor": "#fbca0b",
         "successColor": "#1272b6",
         "infoColor": "#000000",
@@ -42,9 +42,15 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.9.18",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "favicon": false,
-    "mbrsiteDomain": "rbeipndzzj",
+    "mbrsiteDomain": "80mupimoen",
     "imageResize": false,
     "usedWebp": false,
     "robotsSwitcher": false,
@@ -54,7 +60,8 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 24,
-    "versionPublish": "5.9.18"
+    "versionPublish": "5.9.18",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -865,7 +872,7 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#ffea64"
+              "color": "#fbca0b"
             }
           },
           "_name": "header17",
@@ -1089,7 +1096,7 @@
             },
             ".card-title, .card-box": {
               "text-align": "center",
-              "color": "#9fe870"
+              "color": "#1272b6"
             }
           },
           "_name": "article06",
